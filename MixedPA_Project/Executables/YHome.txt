@@ -1,0 +1,8 @@
+REM MOve Y to Home Possition
+disableMotorPara Y
+setMotorPara Y 200 1000 10000
+moveToHomeY -37100
+waitHomeY
+REM removeMsg
+enableMotorPara Y
+REM removeMsg

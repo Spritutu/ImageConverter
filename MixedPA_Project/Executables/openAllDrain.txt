@@ -1,0 +1,8 @@
+REM Open All Drain Valves
+openDrain 1
+openDrain 2
+openDrain 3
+openDrain 4
+openDrain 5
+openDrain 6
+REM RemoveMsg

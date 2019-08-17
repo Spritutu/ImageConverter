@@ -1,0 +1,7 @@
+REM Check Module Cover
+run chkinit.txt
+wait 1000
+run openallcover.txt
+prompt Check Module Cover!
+run closeallcover.txt
+REM RemoveMsg

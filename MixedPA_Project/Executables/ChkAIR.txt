@@ -1,0 +1,10 @@
+REM Check Air Compressor
+run chkinit.txt
+wait 1000
+prompt Check Blow Head!
+wait 3000
+turnOnBlower
+wait 10000
+turnOffBlower
+turnOffPower
+REM RemoveMsg

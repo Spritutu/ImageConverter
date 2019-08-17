@@ -1,0 +1,6 @@
+REM Autostart & Initialization
+turnOnPower
+wait 1000
+run closeallcover.txt
+wait 1000
+run allhome.txt

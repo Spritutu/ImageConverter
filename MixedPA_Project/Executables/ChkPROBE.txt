@@ -1,0 +1,37 @@
+REM Check Probe
+run chkinit.txt
+wait 1000
+selectZ1
+wait 500
+moveToDrain
+setMotorPara Z 100 2000 10000
+moveToZ1a 1200
+prompt Check Position!
+wait 3000
+turnOnV 2
+wait 100
+turnOnAR
+turnOnV 3 
+wait 2000
+turnOffAR
+turnOffV 2
+turnOffV 3
+wait 3000
+setMotorPara Z 100 2000 10000
+moveToZ1a 900
+moveToWash
+moveToZ1a 1400
+setMotorPara Z 100 2000 10000
+turnOnV 2
+wait 100
+turnOnAR
+turnOnV 3 
+wait 5000
+turnOffAR
+wait 2000
+turnOffV 2
+turnOffV 3
+wait 3000
+moveToZ1a 100
+turnOffPower
+REM RemoveMsg

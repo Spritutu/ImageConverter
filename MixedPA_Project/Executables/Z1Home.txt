@@ -1,0 +1,11 @@
+REM MOve Z to Home Possition
+setMotorPara Z 100 500 5000
+selectZ1
+wait 500
+enableHomeZ1
+moveToHomeZ1 -2000
+waitHomeZ1
+moveToZ1a 10
+disableHomeZ1
+setMotorPara Z 100 1000 5000
+REM removeMsg

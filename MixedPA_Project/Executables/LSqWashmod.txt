@@ -1,0 +1,24 @@
+REM Wash Mod
+selectZ2
+wait 500
+setMotorPara Z 100 2000 10000
+moveToZ2a 1500
+moveToX 1200 
+turnOnV 1
+turnOnAR
+turnOnV 3
+wait 100
+disableMotorPara Y
+moveToY -11680 600 15000 20000
+wait 100
+turnOffAR
+wait 300
+turnOffV 1
+turnOffV 3
+wait 100
+enableMotorPara Y
+moveToX -1200
+setMotorPara Z 100 2000 10000
+moveToZ2a 10
+run z2home.txt
+REM remove message

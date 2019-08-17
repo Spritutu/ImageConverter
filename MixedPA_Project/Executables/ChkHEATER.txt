@@ -1,0 +1,90 @@
+REM Check Module Heater
+run chkinit.txt
+wait 1000
+setTemp 1 4500
+wait 500
+setTemp 2 4500
+wait 500
+setTemp 3 4500
+wait 500
+setTemp 4 4500
+wait 500
+setTemp 5 4500
+wait 500
+setTemp 6 4500
+wait 500
+setTemp 7 4500
+wait 500
+setTemp 8 4500
+wait 500
+setTemp 9 4500
+wait 500
+setTemp 10 4500
+wait 500
+setTemp 11 4500
+wait 500
+setTemp 12 4500
+wait 500
+run openallcover.txt
+prompt Keep Hands Off Module!
+waitTemp 1 600
+closeCover 1
+closeCover 1
+waitCoverClose 1
+turnOffTemp 1
+waitTemp 2 600
+closeCover 2
+closeCover 2
+waitCoverClose 2
+turnOffTemp 2
+waitTemp 3 600
+closeCover 3
+closeCover 3
+waitCoverClose 3
+turnOffTemp 3
+waitTemp 4 600
+closeCover 4
+closeCover 4
+waitCoverClose 4
+turnOffTemp 4
+waitTemp 5 600
+closeCover 5
+closeCover 5
+waitCoverClose 5
+turnOffTemp 5
+waitTemp 6 600
+closeCover 6
+closeCover 6
+waitCoverClose 6
+turnOffTemp 6
+waitTemp 7 600
+closeCover 7
+closeCover 7
+waitCoverClose 7
+turnOffTemp 7
+waitTemp 8 600
+closeCover 8
+closeCover 8
+waitCoverClose 8
+turnOffTemp 8
+waitTemp 9 600
+closeCover 9
+closeCover 9
+waitCoverClose 9
+turnOffTemp 9
+waitTemp 10 600
+closeCover 10
+closeCover 10
+waitCoverClose 10
+turnOffTemp 10
+waitTemp 11 600
+closeCover 11
+closeCover 11
+waitCoverClose 11
+turnOffTemp 11
+waitTemp 12 600
+closeCover 12
+closeCover 12
+waitCoverClose 12
+turnOffTemp 12
+REM RemoveMsg

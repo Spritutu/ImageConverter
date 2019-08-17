@@ -1,0 +1,40 @@
+REM Auto Clean
+run chkinit.txt
+wait 1000
+setMotorPara X 200 3000 10000
+setMotorPara Y 200 3000 10000
+setMotorPara Z 100 2000 10000
+setMotorPara U 50 100 1000
+enableMotorPara X
+enableMotorPara Y
+run washprobe.txt
+moveToYsafe
+prompt Prepare Cleaning Reagent at R1&R2 !
+REM Pickup Reagent R1 4850ul
+moveToR 1
+selectZ1
+wait 500
+setMotorPara Z 60 500 1000
+moveToZ1a 1520
+moveToU 3880 50 200 1000
+wait 300000
+moveToU -3880 50 200 1000
+wait 300000
+moveToZ1a 100
+run z1home.txt
+REM Pickup Reagent R2 4850ul
+moveToR 2
+selectZ1
+wait 500
+setMotorPara Z 60 500 1000
+moveToZ1a 1520
+moveToU 3880 50 200 1000
+wait 120000
+moveToU -3880 50 200 1000
+wait 120000
+moveToZ1a 100
+run z1home.txt
+moveToYsafe
+run washprobe.txt
+turnOffPower
+REM RemoveMsg

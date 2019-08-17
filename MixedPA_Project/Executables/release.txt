@@ -1,0 +1,12 @@
+- need to put simulation data files
+/raw/img00001.raw
+/raw/img00004.raw
+/raw/img00009.raw
+
+simMap.ini
+R_Bank16.sql
+
+- support module 1,2,3,4 ONLY, but can be extended by modifying simMap.ini
+
+
+

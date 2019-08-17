@@ -1,0 +1,292 @@
+19/08/05 10:30:58 enableMotorPara X
+19/08/05 10:30:58 enableMotorPara Y
+19/08/05 10:30:58 moveToYsafe
+19/08/05 10:30:58 enableCoverRetry
+19/08/05 10:30:58 openCover 1
+19/08/05 10:30:58 waitCoverOpen 1
+19/08/05 10:30:58 openCover 4
+19/08/05 10:30:58 waitCoverOpen 4
+19/08/05 10:30:58 openCover 2
+19/08/05 10:30:59 waitCoverOpen 2
+19/08/05 10:30:59 openCover 5
+19/08/05 10:30:59 waitCoverOpen 5
+19/08/05 10:30:59 openCover 3
+19/08/05 10:30:59 waitCoverOpen 3
+19/08/05 10:30:59 openCover 6
+19/08/05 10:30:59 waitCoverOpen 6
+19/08/05 10:30:59 run primeBuffer.txt
+19/08/05 10:30:59 selectZ2
+19/08/05 10:31:00 wait 500
+19/08/05 10:31:01 moveToPrime
+19/08/05 10:31:01 moveToX 76
+19/08/05 10:31:01 setMotorPara Z 100 2000 20000
+19/08/05 10:31:01 moveToZ2a 1000
+19/08/05 10:31:01 turnOnV 1
+19/08/05 10:31:01 turnOnAR
+19/08/05 10:31:01 turnOnV 3
+19/08/05 10:31:01 wait 10000
+19/08/05 10:31:11 turnOffAR
+19/08/05 10:31:11 wait 500
+19/08/05 10:31:12 turnOffV 1
+19/08/05 10:31:12 turnOffV 3
+19/08/05 10:31:12 wait 300
+19/08/05 10:31:12 moveToZ2a 10
+19/08/05 10:31:13 run primeEthyl.txt
+19/08/05 10:31:13 selectZ2
+19/08/05 10:31:13 wait 500
+19/08/05 10:31:14 moveToPrime
+19/08/05 10:31:14 setMortorPara Z 100 2000 20000
+19/08/05 10:31:14 moveToZ2a 1000
+19/08/05 10:31:15 pumpBuffer 25 400 150
+19/08/05 10:31:28 wait 1000
+19/08/05 10:31:29 moveToZ2a 10
+19/08/05 10:31:30 run washprobe.txt
+19/08/05 10:31:30 disableFrontZ1
+19/08/05 10:31:30 moveToDrain
+19/08/05 10:31:30 moveToX 720
+19/08/05 10:31:30 setMotorPara Z 100 2000 10000
+19/08/05 10:31:30 moveToZ1a 1200
+19/08/05 10:31:32 run UHome.txt 
+19/08/05 10:31:32 enableHomeU
+19/08/05 10:31:32 setMotorPara U 100 500 1000
+19/08/05 10:31:32 moveToHomeU -4000
+19/08/05 10:31:32 waitHomeU 
+19/08/05 10:31:32 disableHomeU
+19/08/05 10:31:33 turnOnV 2
+19/08/05 10:31:33 wait 100
+19/08/05 10:31:33 turnOnAR
+19/08/05 10:31:33 turnOnV 3 
+19/08/05 10:31:33 wait 2000
+19/08/05 10:31:35 turnOffAR
+19/08/05 10:31:35 turnOffV 2
+19/08/05 10:31:35 turnOffV 3
+19/08/05 10:31:35 wait 3000
+19/08/05 10:31:38 setMotorPara Z 100 2000 10000
+19/08/05 10:31:38 moveToZ1a 900
+19/08/05 10:31:38 moveToWash
+19/08/05 10:31:38 moveToX 690
+19/08/05 10:31:39 moveToZ1a 1600
+19/08/05 10:31:39 setMotorPara Z 100 2000 10000
+19/08/05 10:31:39 turnOnV 2
+19/08/05 10:31:39 wait 100
+19/08/05 10:31:39 turnOnAR
+19/08/05 10:31:39 turnOnV 3 
+19/08/05 10:31:39 wait 2500
+19/08/05 10:31:42 turnOffAR
+19/08/05 10:31:42 wait 1000
+19/08/05 10:31:43 turnOnAR
+19/08/05 10:31:43 wait 2500
+19/08/05 10:31:46 turnOffAR
+19/08/05 10:31:46 wait 2000
+19/08/05 10:31:48 turnOffV 2
+19/08/05 10:31:48 turnOffV 3
+19/08/05 10:31:48 wait 3000
+19/08/05 10:31:51 moveToZ1a 10
+19/08/05 10:31:52 disableHomeU
+19/08/05 10:31:52 moveToU 70 20 100 10000 300
+19/08/05 10:31:53 enableHomeU
+19/08/05 10:31:53 moveToYsafe
+19/08/05 10:31:53 setTempPara -30 45 -60 110
+19/08/05 10:31:53 Step - DX
+19/08/05 10:31:53 setScheduler SCRIPT
+19/08/05 10:31:53 updateRun DX1
+19/08/05 10:31:53 setMotorPara X 200 3000 10000
+19/08/05 10:31:53 setMotorPara Y 200 3000 10000
+19/08/05 10:31:53 setMotorPara Z 100 2000 10000
+19/08/05 10:31:53 setMotorPara U 50 100 1000
+19/08/05 10:31:53 enableMotorPara X
+19/08/05 10:31:53 enableMotorPara Y
+19/08/05 10:31:53 moveToYsafe
+19/08/05 10:31:53 setTemp 1 4500
+19/08/05 10:31:53 setMode 1 DX1
+19/08/05 10:31:53 setTemp 4 4500
+19/08/05 10:31:53 setMode 4 DX1
+19/08/05 10:31:53 setTemp 2 4500
+19/08/05 10:31:53 setMode 2 DX1
+19/08/05 10:31:53 setTemp 5 4500
+19/08/05 10:31:53 setMode 5 DX1
+19/08/05 10:31:53 setTemp 3 4500
+19/08/05 10:31:53 setMode 3 DX1
+19/08/05 10:31:53 setTemp 6 4500
+19/08/05 10:31:53 setMode 6 DX1
+19/08/05 10:31:53 moveToYsafe
+19/08/05 10:31:53 waitTemp 1
+19/08/05 10:31:53 waitTemp module=1 target=4500 current=4063, timeout=0 
+19/08/05 10:32:14 waitTemp callback wait completed. module 1, temp=4462
+19/08/05 10:32:14 waitTemp 4
+19/08/05 10:32:14 waitTemp module=4 target=4500 current=4441, timeout=0 
+19/08/05 10:32:14 waitTemp callback wait completed. module 4, temp=4467
+19/08/05 10:32:14 waitTemp 2
+19/08/05 10:32:14 waitTemp module=2 target=4500 current=4464, timeout=0 
+19/08/05 10:32:15 waitTemp callback wait completed. module 2, temp=4529
+19/08/05 10:32:15 waitTemp 5
+19/08/05 10:32:15 waitTemp module=5 target=4500 current=4574, timeout=0 
+19/08/05 10:32:15 waitTemp callback wait completed. module 5, temp=4585
+19/08/05 10:32:15 waitTemp 3
+19/08/05 10:32:15 waitTemp module=3 target=4500 current=4507, timeout=0 
+19/08/05 10:32:15 waitTemp callback wait completed. module 3, temp=4489
+19/08/05 10:32:15 waitTemp 6
+19/08/05 10:32:15 waitTemp module=6 target=4500 current=4631, timeout=0 
+19/08/05 10:32:15 waitTemp callback wait completed. module 6, temp=4583
+19/08/05 10:32:15 moveToR 1
+19/08/05 10:32:15 moveToY 0
+19/08/05 10:32:15 moveToX 1960
+19/08/05 10:32:15 moveToY 2080
+19/08/05 10:32:16 selectZ1
+19/08/05 10:32:16 wait 500
+19/08/05 10:32:17 moveToU 40 20 80 1000
+19/08/05 10:32:17 setMotorPara Z 60 500 1000
+19/08/05 10:32:17 moveToZ1a 1560
+19/08/05 10:32:21 moveToU 3840 50 200 1000
+19/08/05 10:32:40 wait 5000
+19/08/05 10:32:45 moveToZ1a 10
+19/08/05 10:32:49 moveToU 40 20 80 1000
+19/08/05 10:32:49 updateReagent 1 4800
+19/08/05 10:32:49 moveToYsafe
+19/08/05 10:32:50 openCover 1
+19/08/05 10:32:50 waitCoverOpen 1
+19/08/05 10:32:50 moveToSlide 1
+19/08/05 10:32:50 moveToY 0
+19/08/05 10:32:50 moveToX 26490
+19/08/05 10:32:52 moveToY 28910
+19/08/05 10:32:54 moveToSlide 1 REAGENT
+19/08/05 10:32:54 moveToX 2000
+19/08/05 10:32:54 selectZ1
+19/08/05 10:32:54 wait 500
+19/08/05 10:32:55 setMotorPara Z 100 2000 10000
+19/08/05 10:32:55 moveToZ1a 1200
+19/08/05 10:32:56 moveToU -220 10 50 1000
+19/08/05 10:33:00 wait 300
+19/08/05 10:33:01 moveToU 50
+19/08/05 10:33:02 moveToZ1a 10
+19/08/05 10:33:03 incubate 1 180
+19/08/05 10:33:03 moveToSlide 2 REAGENT
+19/08/05 10:33:03 moveToY -2336
+19/08/05 10:33:03 selectZ1
+19/08/05 10:33:03 wait 500
+19/08/05 10:33:04 setMotorPara Z 100 2000 10000
+19/08/05 10:33:04 moveToZ1a 1200
+19/08/05 10:33:05 moveToU -210 10 50 1000
+19/08/05 10:33:09 wait 300
+19/08/05 10:33:09 moveToU 50
+19/08/05 10:33:11 moveToZ1a 10
+19/08/05 10:33:11 incubate 2 180
+19/08/05 10:33:11 moveToSlide 3 REAGENT
+19/08/05 10:33:11 moveToY -2336
+19/08/05 10:33:12 selectZ1
+19/08/05 10:33:12 wait 500
+19/08/05 10:33:13 setMotorPara Z 100 2000 10000
+19/08/05 10:33:13 moveToZ1a 1200
+19/08/05 10:33:14 moveToU -210 10 50 1000
+19/08/05 10:33:18 wait 300
+19/08/05 10:33:18 moveToU 50
+19/08/05 10:33:19 moveToZ1a 10
+19/08/05 10:33:20 incubate 3 180
+19/08/05 10:33:20 moveToSlide 4 REAGENT
+19/08/05 10:33:20 moveToY -2336
+19/08/05 10:33:21 selectZ1
+19/08/05 10:33:21 wait 500
+19/08/05 10:33:21 setMotorPara Z 100 2000 10000
+19/08/05 10:33:21 moveToZ1a 1200
+19/08/05 10:33:22 moveToU -210 10 50 1000
+19/08/05 10:33:27 wait 300
+19/08/05 10:33:27 moveToU 50
+19/08/05 10:33:28 moveToZ1a 10
+19/08/05 10:33:29 incubate 4 180
+19/08/05 10:33:29 moveToSlide 5 REAGENT
+19/08/05 10:33:29 moveToY -2336
+19/08/05 10:33:29 selectZ1
+19/08/05 10:33:30 wait 500
+19/08/05 10:33:30 setMotorPara Z 100 2000 10000
+19/08/05 10:33:30 moveToZ1a 1200
+19/08/05 10:33:31 moveToU -210 10 50 1000
+19/08/05 10:33:35 wait 300
+19/08/05 10:33:36 moveToU 50
+19/08/05 10:33:37 moveToZ1a 10
+19/08/05 10:33:37 incubate 5 180
+19/08/05 10:33:37 moveToSlide 6 REAGENT
+19/08/05 10:33:38 moveToY -2336
+19/08/05 10:33:38 selectZ1
+19/08/05 10:33:38 wait 500
+19/08/05 10:33:39 setMotorPara Z 100 2000 10000
+19/08/05 10:33:39 moveToZ1a 1200
+19/08/05 10:33:40 moveToU -210 10 50 1000
+19/08/05 10:33:44 wait 300
+19/08/05 10:33:44 moveToU 50
+19/08/05 10:33:45 moveToZ1a 10
+19/08/05 10:33:46 incubate 6 180
+19/08/05 10:33:46 openCover 4
+19/08/05 10:33:46 waitCoverOpen 4
+19/08/05 10:33:46 moveToSlide 19
+19/08/05 10:33:46 moveToX -2000
+19/08/05 10:33:47 moveToY -5374
+19/08/05 10:33:48 closeCover 1
+19/08/05 10:33:48 waitCoverClose 1
+19/08/05 10:33:50 moveToSlide 19 REAGENT
+19/08/05 10:33:50 moveToX 2000
+19/08/05 10:33:50 selectZ1
+19/08/05 10:33:51 wait 500
+19/08/05 10:33:51 setMotorPara Z 100 2000 10000
+19/08/05 10:33:51 moveToZ1a 1200
+19/08/05 10:33:52 moveToU -210 10 50 1000
+19/08/05 10:33:56 wait 300
+19/08/05 10:33:57 moveToU 50
+19/08/05 10:33:58 moveToZ1a 10
+19/08/05 10:33:59 incubate 19 180
+19/08/05 10:33:59 moveToSlide 20 REAGENT
+19/08/05 10:33:59 moveToY -2336
+19/08/05 10:33:59 selectZ1
+19/08/05 10:33:59 wait 500
+19/08/05 10:34:00 setMotorPara Z 100 2000 10000
+19/08/05 10:34:00 moveToZ1a 1200
+19/08/05 10:34:01 moveToU -210 10 50 1000
+19/08/05 10:34:05 wait 300
+19/08/05 10:34:05 moveToU 50
+19/08/05 10:34:06 moveToZ1a 10
+19/08/05 10:34:07 incubate 20 180
+19/08/05 10:34:07 moveToSlide 21 REAGENT
+19/08/05 10:34:07 moveToY -2336
+19/08/05 10:34:08 selectZ1
+19/08/05 10:34:08 wait 500
+19/08/05 10:34:09 setMotorPara Z 100 2000 10000
+19/08/05 10:34:09 moveToZ1a 1200
+19/08/05 10:34:09 moveToU -210 10 50 1000
+19/08/05 10:34:14 wait 300
+19/08/05 10:34:14 moveToU 50
+19/08/05 10:34:15 moveToZ1a 10
+19/08/05 10:34:16 incubate 21 180
+19/08/05 10:34:16 moveToSlide 22 REAGENT
+19/08/05 10:34:16 moveToY -2336
+19/08/05 10:34:17 selectZ1
+19/08/05 10:34:17 wait 500
+19/08/05 10:34:17 setMotorPara Z 100 2000 10000
+19/08/05 10:34:17 moveToZ1a 1200
+19/08/05 10:34:18 moveToU -210 10 50 1000
+19/08/05 10:34:22 wait 300
+19/08/05 10:34:23 moveToU 50
+19/08/05 10:34:24 moveToZ1a 10
+19/08/05 10:34:25 incubate 22 180
+19/08/05 10:34:25 moveToSlide 23 REAGENT
+19/08/05 10:34:25 moveToY -2336
+19/08/05 10:34:25 selectZ1
+19/08/05 10:34:25 wait 500
+19/08/05 10:34:26 setMotorPara Z 100 2000 10000
+19/08/05 10:34:26 moveToZ1a 1200
+19/08/05 10:34:27 moveToU -210 10 50 1000
+19/08/05 10:34:31 wait 300
+19/08/05 10:34:31 moveToU 50
+19/08/05 10:34:33 moveToZ1a 10
+19/08/05 10:34:33 incubate 23 180
+19/08/05 10:34:33 moveToSlide 24 REAGENT
+19/08/05 10:34:33 moveToY -2336
+19/08/05 10:34:34 selectZ1
+19/08/05 10:34:34 wait 500
+19/08/05 10:34:35 setMotorPara Z 100 2000 10000
+19/08/05 10:34:35 moveToZ1a 1200
+19/08/05 10:34:36 moveToU -210 10 50 1000
+19/08/05 10:34:40 wait 300
+19/08/05 10:34:40 moveToU 50
+19/08/05 10:34:41 moveToZ1a 10
+19/08/05 10:34:42 incubate 24 180
+19/08/05 10:34:42 openCover 2
+19/08/05 10:36:08 turnOffPower

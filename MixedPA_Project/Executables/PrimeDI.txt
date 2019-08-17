@@ -1,0 +1,17 @@
+REM Prime AR Buffer
+selectZ2
+wait 500
+moveToPrime
+setMortorPara Z 100 2000 20000
+moveToZ2a 1000
+turnOnV 1
+turnOnAR
+turnOnV 6
+wait 10000
+turnOffAR
+wait 500
+turnOffV 1
+turnOffV 6
+wait 300
+moveToZ2a 10
+REM RemoveMsg

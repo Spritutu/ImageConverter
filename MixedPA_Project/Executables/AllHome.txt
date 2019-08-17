@@ -1,0 +1,7 @@
+REM Reset all axis to home possition
+run ztohome.txt
+run ytohome.txt
+run xtohome.txt
+run uTohome.txt
+REM removeMsg
+

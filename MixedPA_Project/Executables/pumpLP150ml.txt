@@ -1,0 +1,13 @@
+REM Pump AR 200mL
+moveToZ2a 1700
+turnOnV 1
+turnOnAR
+turnOnV 6
+wait 40000
+turnOffV 1
+turnOffAR
+turnOffV 6
+wait 500
+moveToZ2a 10
+REM RemoveMsg
+

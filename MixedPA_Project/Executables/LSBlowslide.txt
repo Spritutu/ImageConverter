@@ -1,0 +1,15 @@
+REM Blow Slide
+setMotorPara Z 100 2000 20000
+moveToZ2a 1800
+disableMotorPara X 
+turnOnBlower
+wait 500
+moveToX 3500 100 3200 20000
+wait 300
+turnOffBlower
+wait 200
+moveToZ2a 10
+run z2home.txt
+enableMotorPara X
+REM RemoveMsg
+

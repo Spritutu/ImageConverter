@@ -1,0 +1,17 @@
+REM Wash 6 Slides for test the volume 
+openCover 3
+waitCoverOpen 3
+moveToSlide 13
+run washslide.txt
+moveToSlide 14
+run washslide.txt
+moveToSlide 15
+run washslide.txt
+moveToSlide 16
+run washslide.txt
+moveToSlide 17
+run washslide.txt
+moveToSlide 18
+run LSwashslide.txt
+moveToYsafe
+REM remove message

@@ -1,0 +1,35 @@
+19/05/20 17:12:21 Titan-S 1.0.0_1812040000 waitCoverOpen 2 Retry=1
+19/05/20 17:12:52 Titan-S 1.0.0_1812040000 waitCoverClose 2 Retry=1
+19/05/20 17:13:22 Titan-S 1.0.0_1812040000 waitCoverOpen 2 Retry=2
+19/05/20 17:13:52 Titan-S 1.0.0_1812040000 waitCoverClose 2 Retry=2
+19/05/20 17:14:22 Titan-S 1.0.0_1812040000 waitCoverOpen 2 { waitCoverOpen | 2 | }
+19/05/20 17:15:17 Titan-S 1.0.0_1812040000 waitCoverClose 2 { waitCoverClose | 2 | }
+19/05/20 17:16:20 Titan-S 1.0.0_1812040000 waitCoverClose 2 { waitCoverClose | 2 | }
+19/06/19 09:14:12 step=AR Module #1 heater has problem
+19/06/19 12:59:44 step=AR Module #1 heater has problem
+19/06/19 16:31:58 step=AR Module #1 heater has problem
+19/07/01 08:58:17 Titan 1.3.0.20190626 waitCoverOpen 1 { waitCoverOpen | 1 | }
+19/07/30 10:19:53 Titan 1.3.0.20190702 waitCoverClose 2 Retry=1
+19/08/05 08:43:09 Titan 1.3.0.20190702 snap 16 { snap | 16 | }
+19/08/05 08:43:30 Titan 1.3.0.20190702 snap 17 { snap | 17 | }
+19/08/05 08:43:40 Titan 1.3.0.20190702 snap 18 { snap | 18 | }
+19/08/05 08:43:50 Titan 1.3.0.20190702 snap 31 { snap | 31 | }
+19/08/05 08:43:59 Titan 1.3.0.20190702 snap 32 { snap | 32 | }
+19/08/05 08:44:08 Titan 1.3.0.20190702 snap 33 { snap | 33 | }
+19/08/05 08:44:15 Titan 1.3.0.20190702 snap 34 { snap | 34 | }
+19/08/05 08:44:22 Titan 1.3.0.20190702 snap 35 { snap | 35 | }
+19/08/05 08:44:29 Titan 1.3.0.20190702 snap 36 { snap | 36 | }
+19/08/05 09:09:19 Titan 1.3.0.20190702 snap 25 { snap | 25 | }
+19/08/05 09:09:32 Titan 1.3.0.20190702 snap 26 { snap | 26 | }
+19/08/05 09:09:40 Titan 1.3.0.20190702 snap 27 { snap | 27 | }
+19/08/05 09:09:50 Titan 1.3.0.20190702 snap 28 { snap | 28 | }
+19/08/05 09:09:58 Titan 1.3.0.20190702 snap 29 { snap | 29 | }
+19/08/05 09:10:05 Titan 1.3.0.20190702 snap 30 { snap | 30 | }
+19/08/05 09:28:52 Titan 1.3.0.20190702 snap 34 { snap | 34 | }
+19/08/05 09:29:00 Titan 1.3.0.20190702 snap 35 { snap | 35 | }
+19/08/05 09:29:08 Titan 1.3.0.20190702 snap 36 { snap | 36 | }
+19/08/16 16:19:53 Titan 1.3.0.20190815 : 1/8
+19/08/16 16:19:53 moveToZ1a 10
+19/08/16 16:19:53 Initialize COM port
+19/08/16 16:19:53 Z1 go home
+19/08/16 16:19:53 moveToZ1a 10

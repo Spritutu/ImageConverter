@@ -1,0 +1,200 @@
+3035734,moveToZ1=-1190,
+
+3035750,incubate 4 180,10:15:50
+
+3035765,REM dispense Reagent to slide 5 200ul,10:15:50
+
+3035765,(null) = ACK,
+
+3035781,moveToSlide 5 REAGENT,10:15:50
+
+3035781,REM Move from (33860:22162) to (33860:19826),10:15:50
+
+3035796,(null) = ACK,
+
+3035796,moveToY -2336,10:15:50
+
+3035812,moveToY -2336 600 5000 50000,
+
+3036390,moveToY=-2336,
+
+3036406,REM move end,10:15:51
+
+3036421,(null) = ACK,
+
+3036437,REM Dispense 200 to 10,10:15:51
+
+3036437,(null) = ACK,
+
+3036453,selectZ1,10:15:51
+
+3036453,selectZ1,
+
+3036468,selectZ1=ACK,
+
+3036468,wait 500,10:15:51
+
+3037031,wait=ACK,
+
+3037046,setMotorPara Z 100 2000 10000,10:15:52
+
+3037125,setMotorPara Z 100 2000 10000,
+
+3037140,moveToZ1a 1200,10:15:52
+
+3037171,moveToZ1 1190,
+
+3037968,moveToZ1=1190,
+
+3038000,moveToU -210 10 50 1000,10:15:53
+
+3038015,moveToU -210 10 50 1000,
+
+3042250,moveToU=-210,
+
+3042265,wait 300,10:15:57
+
+3042593,wait=ACK,
+
+3042609,moveToU 50,10:15:57
+
+3042640,moveToU 50,
+
+3043671,moveToU=50,
+
+3043687,moveToZ1a 10,10:15:58
+
+3043718,moveToZ1 -1190,
+
+3044515,moveToZ1=-1190,
+
+3044531,incubate 5 180,10:15:59
+
+3044562,REM dispense Reagent to slide 6 200ul,10:15:59
+
+3044562,(null) = ACK,
+
+3044578,moveToSlide 6 REAGENT,10:15:59
+
+3044593,REM Move from (33860:19826) to (33860:17490),10:15:59
+
+3044593,(null) = ACK,
+
+3044609,moveToY -2336,10:15:59
+
+3044609,moveToY -2336 600 5000 50000,
+
+3045187,moveToY=-2336,
+
+3045203,REM move end,10:16:00
+
+3045218,(null) = ACK,
+
+3045234,REM Dispense 200 to 10,10:16:00
+
+3045234,(null) = ACK,
+
+3045250,selectZ1,10:16:00
+
+3045250,selectZ1,
+
+3045281,selectZ1=ACK,
+
+3045281,wait 500,10:16:00
+
+3045812,wait=ACK,
+
+3045828,setMotorPara Z 100 2000 10000,10:16:00
+
+3045859,setMotorPara Z 100 2000 10000,
+
+3045875,moveToZ1a 1200,10:16:01
+
+3045890,moveToZ1 1190,
+
+3046687,moveToZ1=1190,
+
+3046718,moveToU -210 10 50 1000,10:16:01
+
+3046734,moveToU -210 10 50 1000,
+
+3050968,moveToU=-210,
+
+3050984,wait 300,10:16:06
+
+3051328,wait=ACK,
+
+3051343,moveToU 50,10:16:06
+
+3051375,moveToU 50,
+
+3052406,moveToU=50,
+
+3052421,moveToZ1a 10,10:16:07
+
+3052453,moveToZ1 -1190,
+
+3053250,moveToZ1=-1190,
+
+3053265,incubate 6 180,10:16:08
+
+3053296,REM dispense Reagent to slide 19 200ul,10:16:08
+
+3053296,(null) = ACK,
+
+3053312,openCover 4,10:16:08
+
+3053312,openCover 4,
+
+3053328,openCover 4,
+
+3053328,openCover=ACK,
+
+3053343,waitCoverOpen 4,10:16:08
+
+3053343,waitCoverOpen 4,
+
+3053406,waitCoverOpen=1 4,
+
+3053437,moveToSlide 19,10:16:08
+
+3053468,REM Move from (33860:17490) to (31860:12116),10:16:08
+
+3053468,(null) = ACK,
+
+3053484,moveToX -2000,10:16:08
+
+3053500,moveToX -2000 600 7000 30000,
+
+3054046,moveToX=-2000,
+
+3054046,moveToY -5374,10:16:09
+
+3054062,moveToY -5374 600 15000 50000,
+
+3054734,moveToY=-5374,
+
+3054765,REM move end,10:16:09
+
+3054781,(null) = ACK,
+
+3054796,closeCover 1,10:16:09
+
+3054796,closeCover 1,
+
+3054812,closeCover 1,
+
+3054828,closeCover=ACK,
+
+3054828,closeCover 1,10:16:09
+
+3054843,closeCover 1,
+
+3054843,closeCover 1,
+
+3054859,closeCover=ACK,
+
+3054859,waitCoverClose 1,10:16:10
+
+3054875,waitCoverClose 1,
+

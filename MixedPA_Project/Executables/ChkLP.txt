@@ -1,0 +1,22 @@
+REM Check AR Pump
+run chkinit.txt
+wait 1000
+selectZ2
+wait 500
+moveToPrime
+setMotorPara Z 100 2000 10000
+moveToZ2a 1030
+prompt Check Position!
+wait 3000
+turnOnV 1
+turnOnAR
+turnOnV 6
+wait 10000
+turnOffAR
+wait 500
+turnOffV 1
+turnOffV 6
+wait 300
+moveToZ2a 100
+turnOffPower
+REM RemoveMsg

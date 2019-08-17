@@ -1,0 +1,16 @@
+REM U-Axis to Home
+moveToDrain
+moveToZ1a 1000
+wait 2000
+enableHomeU
+setMotorPara U 100 500 1000
+moveToHomeU -4000
+waitHomeU 
+disableHomeU
+wait 2000
+moveToZ1a 10
+moveToDrain
+REM RemoveMsg
+
+
+

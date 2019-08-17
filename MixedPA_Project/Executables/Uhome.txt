@@ -1,0 +1,10 @@
+REM U-Axis to Home
+enableHomeU
+setMotorPara U 100 500 1000
+moveToHomeU -4000
+waitHomeU 
+disableHomeU
+REM RemoveMsg
+
+
+

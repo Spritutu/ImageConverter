@@ -1,0 +1,15 @@
+REM Blow Slide
+selectZ2
+wait 500
+setMotorPara Z 100 2000 10000
+moveToZ2a 1760
+disableMotorPara X 
+turnOnBlower
+moveToX 3900 100 3200 20000
+wait 300
+turnOffBlower
+wait 200
+moveToZ2a 1000
+enableMotorPara X
+REM RemoveMsg
+

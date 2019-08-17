@@ -1,0 +1,51 @@
+REM Reset all axis to home possition
+run closeallcover.txt
+run ztohome.txt
+run ytohome.txt
+run xtohome.txt
+openCover 2
+waitCoverOpen 2
+openCover 8
+waitCoverOpen 8
+openCover 3
+waitCoverOpen 3
+openCover 9
+waitCoverOpen 9
+openCover 5
+waitCoverOpen 5
+openCover 11
+waitCoverOpen 11
+openCover 6
+waitCoverOpen 6
+openCover 12
+waitCoverOpen 12
+wait 1000
+moveToMod 1
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 7
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 2
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 8
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 4
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 10
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 5
+moveToX -2000
+prompt Measure the Gap!
+moveToMod 11
+moveToX -2000
+prompt Measure the Gap!
+moveToYsafe
+moveToDrain
+run closeallcover.txt
+REM removeMsg
+

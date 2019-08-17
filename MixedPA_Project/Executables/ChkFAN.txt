@@ -1,0 +1,51 @@
+REM Check Module Fan
+run chkinit.txt
+wait 1000
+turnOnFan 1
+prompt Check Fan 1!
+turnOffFan 1
+wait 1000
+turnOnFan 2
+prompt Check Fan 2!
+turnOffFan 2
+wait 1000
+turnOnFan 3
+prompt Check Fan 3!
+turnOffFan 3
+wait 1000
+turnOnFan 4
+prompt Check Fan 4!
+turnOffFan 4
+wait 1000
+turnOnFan 5
+prompt Check Fan 5!
+turnOffFan 5
+wait 1000
+turnOnFan 6
+prompt Check Fan 6!
+turnOffFan 6
+wait 1000
+turnOnFan 7
+prompt Check Fan 7!
+turnOffFan 7
+wait 1000
+turnOnFan 8
+prompt Check Fan 8!
+turnOffFan 8
+wait 1000
+turnOnFan 9
+prompt Check Fan 9!
+turnOffFan 9
+wait 1000
+turnOnFan 10
+prompt Check Fan 10!
+turnOffFan 10
+wait 1000
+turnOnFan 11
+prompt Check Fan 11!
+turnOffFan 11
+wait 1000
+turnOnFan 12
+prompt Check Fan 12!
+turnOffFan 12
+REM RemoveMsg

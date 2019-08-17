@@ -1,0 +1,10 @@
+REM MOve X to Home Possition
+enableHomeX
+disableMotorPara X
+setMotorPara X 200 3000 10000
+moveToHomeX -35460
+waitHomeX
+enableMotorPara X
+disableHomeX
+moveToDrain
+REM removeMsg

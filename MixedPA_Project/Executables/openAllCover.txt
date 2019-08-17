@@ -1,0 +1,27 @@
+REM Open All Covers
+openCover 1
+waitCoverOpen 1
+openCover 2
+waitCoverOpen 2
+openCover 3
+waitCoverOpen 3
+openCover 4
+waitCoverOpen 4
+openCover 5
+waitCoverOpen 5
+openCover 6
+waitCoverOpen 6
+wait 2000
+openCover 1
+openCover 2
+openCover 3
+openCover 4
+openCover 5
+openCover 6
+waitCoverOpen 1
+waitCoverOpen 2
+waitCoverOpen 3
+waitCoverOpen 4
+waitCoverOpen 5
+waitCoverOpen 6
+REM RemoveMsg

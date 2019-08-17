@@ -1,0 +1,8 @@
+REM Close All Drain Valves
+closeDrain 1
+closeDrain 2
+closeDrain 3
+closeDrain 4
+closeDrain 5
+closeDrain 6
+REM Removemsg

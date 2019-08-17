@@ -1,0 +1,44 @@
+REM wash pipe
+REM go to waste bin
+disableFrontZ1
+moveToDrain
+setMotorPara Z 100 2000 10000
+moveToZ1a 1200
+run UHome.txt 
+REM RemoveMsg
+turnOnV 2
+wait 100
+turnOnAR
+turnOnV 3 
+wait 2000
+turnOffAR
+turnOffV 2
+turnOffV 3
+wait 3000
+setMotorPara Z 100 2000 10000
+moveToZ1a 900
+moveToWash
+moveToZ1a 1600
+setMotorPara Z 100 2000 10000
+turnOnV 2
+wait 100
+turnOnAR
+turnOnV 3 
+wait 2500
+turnOffAR
+wait 1000
+turnOnAR
+wait 2500
+turnOffAR
+wait 2000
+turnOffV 2
+turnOffV 3
+wait 3000
+moveToZ1a 10
+disableHomeU
+moveToU 70 20 100 10000 300
+enableHomeU
+REM RemoveMsg
+
+
+

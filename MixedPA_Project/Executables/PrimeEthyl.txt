@@ -1,0 +1,10 @@
+REM Prime Athyl
+selectZ2
+wait 500
+moveToPrime
+setMortorPara Z 100 2000 20000
+moveToZ2a 1000
+pumpBuffer 25 400 150
+wait 1000
+moveToZ2a 10
+REM RemoveMsg

@@ -1,0 +1,37 @@
+System commands:
+buyReagent calRun disableMotorPara enableMotorPara finddot
+getCoord hideCam hideRun hideTemp importReagent
+incubate incubateMod loadSlide logReagent moveToMod
+moveToR moveToSlide moveToUa moveToXa moveToYa
+moveToYsafe moveToZ1a moveToZ2a printStatus printTime
+prompt promptOnError removeMsg run scanR
+scanbarcode setFrame setMode setScheduler setTempTarget
+setToHomeU showCam showRun showTemp snap
+startNew startTimer turnOffLed turnOnLed updateReagent
+updateRun wait waitForComplete waitIncubate waitIncubateMod
+waitTimer 
+Total 51 system commands
+help
+Command summary:
+closeCover closeDrain clrGPIO connect coverStatus 
+disableDoor disableFrontZ1 disableHomeU disableHomeX disableHomeY 
+disableHomeZ1 disableHomeZ2 drainStatus enableDoor enableFrontZ1 
+enableHomeU enableHomeX enableHomeY enableHomeZ1 enableHomeZ2 
+getGPIO getMotorPara getTemp getTempPara getVer 
+heaterStatus help isBottleEmpty isCoverClose                                                
+isDoorClose isHomeU isHomeX isHomeY isHomeZ1 
+isHomeZ2 isSelectZ1 logTemp motorPara moveToFrontZ1 
+moveToHomeU moveToHomeX moveToHomeY moveToHomeZ1 moveToHomeZ2 
+moveToU moveToX moveToY moveToZ1 moveToZ2 
+openCover openCoverAll openDrain pPump pumpBuffer 
+pumpBufferS1 pumpBufferS2 rd32 rdReg readCounter 
+resetCounter selectBuffer selectDI selectZ1 selectZ2 
+setGPIO setMotorPara setTemp setTempPara stopPpump 
+stopU stopX stopY stopZ1 stopZ2 
+turnOffAR turnOffBlower turnOffFan turnOffLog turnOffPower 
+turnOffTemp turnOffTempAll turnOffV turnOffWaste turnOnAR 
+turnOnBlower turnOnFan turnOnLog turnOnPower turnOnV 
+turnOnWaste wait waitARoff waitCoverAll waitCoverClose 
+waitCoverOpen waitFrontZ1 waitHomeU waitHomeX waitHomeY 
+waitHomeZ1 waitHomeZ2 waitTemp waitTempHigh waitTempLow 
+wrReg 

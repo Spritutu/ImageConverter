@@ -1,0 +1,8 @@
+REM Open All Drain Valves
+turnOffFan 1
+turnOffFan 2
+turnOffFan 3
+turnOffFan 4
+turnOffFan 5
+turnOffFan 6
+REM RemoveMsg
